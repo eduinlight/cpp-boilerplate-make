@@ -1,6 +1,6 @@
 SHELL=/bin/bash
 
-PROJECT_NAME=c-boilerplate
+PROJECT_NAME=cpp-boilerplate
 
 # Compiler and flags
 CC = g++

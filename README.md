@@ -1,4 +1,4 @@
-## C boilerplate with make
+## C++ boilerplate with make
 
 ### Run debug
 
