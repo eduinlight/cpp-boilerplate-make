@@ -4,7 +4,7 @@ PROJECT_NAME=cpp-boilerplate
 
 # Compiler and flags
 CC = g++
-CFLAGS = -Wall -Wextra -std=c++17
+CFLAGS = -Wall -Wextra -std=c++20
 CFLAGS_DEBUG = -g
 CFLAGS_RELEASE = -O3
 
