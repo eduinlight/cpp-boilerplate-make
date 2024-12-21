@@ -24,9 +24,7 @@ ostream &operator<<(ostream &os, const pair<T, Q> &v) {
 }
 
 template <class T> ostream &operator<<(ostream &os, const vector<T> &v) {
-  os << "[ ";
-  L(i, 0, sz(v) - 1) os << v[i] << (i == sz(v) - 1 ? "" : ", ");
-  os << " ]";
+  L(i, 0, sz(v) - 1) os << v[i] << (i == sz(v) - 1 ? "" : " ");
   return os;
 }
 
